@@ -1,28 +1,31 @@
 /* Use this file to use your own styles*/
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #202030;
-	background-color: #f8f8fc;
+	  font-family: "Lora", serif;
+	color: #FFFFFF;
+	background-color: #FFF8F5;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #B3A390;
+	color: 
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #D8D7CD;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #DECBB9;
+	
 }
 
 /* Styles for lists in the document */
@@ -48,4 +51,27 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+@charset "utf-8";
+@import url("New Text Document.txt.css");
+
+.myfont {
+    color:#B93538;
+font-family: "Protest Riot", sans-serif;}
+
+.mybox {
+    width: 600px;
+    height: 80px;
+    text-shadow: 0px 0px #D82727;
+    border-width: 8px;
+    border-color: #8383C8;
+    background-color: #000000;
+    margin-top: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 11px;
+    border-radius: 5px;
+}
+
+#test {
+	background-color:#69C986;
+	
 }
